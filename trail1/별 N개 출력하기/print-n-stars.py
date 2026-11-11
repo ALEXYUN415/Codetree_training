@@ -1,6 +1,6 @@
 n = int(input())
 
 
-while n >= 1:
+while n:
     print("*")
     n -= 1
