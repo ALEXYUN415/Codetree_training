@@ -1,6 +1,6 @@
 while True:
     n = int(input())
-    if n is not 0:
-        print(n)
-    else:
+    if n is 0:
         break
+
+    print(n)
