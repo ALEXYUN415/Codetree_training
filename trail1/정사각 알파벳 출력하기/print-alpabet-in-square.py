@@ -1,8 +1,9 @@
 n = int(input())
 # A => 65
-x = 65
+cnt = "A"
 for _ in range(n):
     for _ in range(n):
-        print(chr(x), end ="")
-        x += 1
+        print(cnt, end = "")
+        cnt = chr(ord(cnt) + 1)
+        
     print()
